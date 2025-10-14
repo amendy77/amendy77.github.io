@@ -81,3 +81,35 @@ Below is a link directly to my YouTube page where I uploaded my Code Review wher
 
 [x] Look for enhancement: Walk through and explain planned enhancements.
 
+Software Design and Engineering: Zoo Authentication Enhancement
+I decided to use my Zoo Application for User Authentication as my artifact for my Software Design and Engineering category.  With the help of this application, an authentication system was created to allow certain users to access just the information relevant to their function within a computer system.  First, I worked on this final project for my IT-145-J4460: Foundation in Application Development course.
+Since this was one of the first courses I took that exposed me to Java, I chose this artifact.  I loved this course so much that I knew I wanted to work as a Java developer.  Even though I developed a strong interest in the language, I knew I still had a long way to go before I could become skilled enough to land respectable jobs.  I therefore realized that the best course of action for me was to apply from the start of my degree and build on the knowledge I had gained over time.As a result, the particular elements of the artifact that best demonstrate my aptitude for software development allowed me to take advantage of simplicity by successfully separating my functions rather than combining them into a single class for reusability.  I designed straightforward constructors using recommended standards, and I commented on them to illustrate my code and method behaviors.  Finally, since my initial program had all of the passwords hardcoded into it, allowing for all types of weaknesses, I coded more advanced security mechanisms to be incorporated.  As an illustration:
+while (tryCount < maxTryCount) {
+      // username input
+      System.out.println("Enter username:");
+      String userName = scnr.readLine();
+
+      // password input
+      System.out.println("Enter password:");
+      String password1 = scnr.readLine();
+
+      if (userName.equalsIgnoreCase(EXIT_CHAR) || password1.equalsIgnoreCase(EXIT_CHAR)) {
+         return;
+
+      }
+
+      if (AuthenticationHandler.isValidUser(credentials, userName, password1)) {
+         // Show corresponding greeting for valid user
+         AuthenticationHandler.showGreetings(userName);
+      } else {
+         // Handle wrong credential scenario
+         System.out.println("Invalid username/password.");
+         System.out.println();
+         tryCount++;
+      }
+   }
+
+   // Show as last before exiting
+   System.out.println("You have exceeded the maximum amount of login attempts. Please try again later.");
+
+}
