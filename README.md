@@ -86,33 +86,24 @@ Software Design and Engineering: Zoo Authentication Enhancement
 I decided to use my Zoo Application for User Authentication as my artifact for my Software Design and Engineering category.  With the help of this application, an authentication system was created to allow certain users to access just the information relevant to their function within a computer system.  First, I worked on this final project for my IT-145-J4460: Foundation in Application Development course.
 Since this was one of the first courses I took that exposed me to Java, I chose this artifact.  I loved this course so much that I knew I wanted to work as a Java developer.  Even though I developed a strong interest in the language, I knew I still had a long way to go before I could become skilled enough to land respectable jobs.  I therefore realized that the best course of action for me was to apply from the start of my degree and build on the knowledge I had gained over time.As a result, the particular elements of the artifact that best demonstrate my aptitude for software development allowed me to take advantage of simplicity by successfully separating my functions rather than combining them into a single class for reusability.  I designed straightforward constructors using recommended standards, and I commented on them to illustrate my code and method behaviors.  Finally, since my initial program had all of the passwords hardcoded into it, allowing for all types of weaknesses, I coded more advanced security mechanisms to be incorporated.  As an illustration:
 
-while (tryCount < maxTryCount) {
-      // username input
-      System.out.println("Enter username:");
-      String userName = scnr.readLine();
-      // password input
-      System.out.println("Enter password:");
-      String password1 = scnr.readLine();
+      // Validate if user or credentials is valid
+      public static boolean isValidUser(Map<String, String> credentials, String user, String pass) {
 
- if (userName.equalsIgnoreCase(EXIT_CHAR) || password1.equalsIgnoreCase(EXIT_CHAR)) {
-         return;
+         // Validate if scenario is valid
+         if (credentials == null || user == null || pass == null) {
+      // Always return false for negative scenarios
+      return false;
+         }
 
-}
-
- if (AuthenticationHandler.isValidUser(credentials, userName, password1)) {
-         // Show corresponding greeting for valid user
-         AuthenticationHandler.showGreetings(userName);
-      } else {
-         // Handle wrong credential scenario
-         System.out.println("Invalid username/password.");
-         System.out.println();
-         tryCount++;
+         boolean isValid = false;
+         Credentials cred = new Credentials(pass);
+         try {
+      if (credentials.containsKey(user) && credentials.containsValue(cred.generateEncryptedPassword())) {
+         isValid = true;
       }
-   }
-
-   // Show as last before exiting
-   System.out.println("You have exceeded the maximum amount of login attempts. Please try again later.");
-
-}
-
+         } catch (Exception e) {
+      e.printStackTrace();
+         }
+         return isValid;
+      }
 As I thought back on the process of improving and changing my artifact, I realized how important it is to fully concentrate on creating clear, effective code and how to apply the knowledge I gained from my Secure Coding course to safeguard my application.  I discovered how to create a sophisticated application that is portable and easy to understand.  How adding an admin text file, a credential text file, a veterinarian text file, a zookeeper text file, a role class, an MD5 digest class, an MD5 Hash class, a class that reads in my file, a main class, and a README file that details the program's precise purpose enhanced my artifact. In order to follow best practices and enable any user seeing my codes to fully comprehend my program, I had to include comments where needed in my codes.  Last but not least, I had to create algorithms that would validate user login attempts, validate hash passwords, and test and validate all inputs—whether they were taken from any of my previously mentioned text files—in order to construct my program with hackers in mind.  I would thus have a Zoo application that complies with all coding standards and best practices and demonstrates how, during my time as a Computer Science, Software Engineering student at Southern New Hampshire University, my programming abilities have developed via repetition.
