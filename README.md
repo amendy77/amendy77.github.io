@@ -27,8 +27,7 @@ src="https://img.shields.io/github/followers/amendy_77?logo=github&style=for-the
 
 <a href="https://github.com/amendy77" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amendy77&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
-Table of content
-
+## *Table of Content*
 1. Professional Self-Assessment
 
 2. Code Review
@@ -39,7 +38,7 @@ Table of content
 
 5. Databases: CS-340 Client/Server Development
 
-Professional Self-Assessment:
+### *Professional Self-Assessment:*
 
 My experience in my computer science program was quite difficult, but it was well worth it. The reason for this was that I had no prior software engineering experience. Having worked in the medical sector for more than 15 years,
 I felt the need to make a difference in my life one night while working an overnight shift. A change that demanded more of me, a challenge that forced me to think creatively and come up with answers. Due to this change, 
@@ -71,7 +70,7 @@ One of the main elements of software is security.  Professionals that care about
 
 To wrap up my self-evaluation, I've provided two artifacts that complement my portfolios overall—one of which I used twice in two distinct categories.  As previously said, those artifacts were a Zoo application that I initially constructed for my IT-145 course, which I utilized to demonstrate my proficiency in both software design and engineering as well as my knowledge of algorithms and data structures. The othere was CS340 which Showcases how computer science may help firms reach their objectives by increasing operational efficiency and decision-making.  employing technologies like Python and MongoDB to learn how to design and develop software systems, with an emphasis on useful skills like applying design patterns, effective software design principles, and client-server ideas.
 
-Code Review
+### *Code Review*
 
 Below is a link directly to my YouTube page where I uploaded my Code Review where I addressed the following:
 
@@ -85,7 +84,7 @@ Software Design and Engineering: Zoo Authentication Enhancement
 
 ![Java-1](https://github.com/user-attachments/assets/be8c2ba0-046a-4654-aacf-b4a70a09f956)
 
-
+### *Software Design and Engineering: Zoo Authentication Enhancement*
 
 I decided to use my Zoo Application for User Authentication as my artifact for my Software Design and Engineering category.  With the help of this application, an authentication system was created to allow certain users to access just the information relevant to their function within a computer system.  First, I worked on this final project for my IT-145-J4460: Foundation in Application Development course.
 Since this was one of the first courses I took that exposed me to Java, I chose this artifact.  I loved this course so much that I knew I wanted to work as a Java developer.  Even though I developed a strong interest in the language, I knew I still had a long way to go before I could become skilled enough to land respectable jobs.  I therefore realized that the best course of action for me was to apply from the start of my degree and build on the knowledge I had gained over time.As a result, the particular elements of the artifact that best demonstrate my aptitude for software development allowed me to take advantage of simplicity by successfully separating my functions rather than combining them into a single class for reusability.  I designed straightforward constructors using recommended standards, and I commented on them to illustrate my code and method behaviors.  Finally, since my initial program had all of the passwords hardcoded into it, allowing for all types of weaknesses, I coded more advanced security mechanisms to be incorporated.  As an illustration:
@@ -111,3 +110,14 @@ Since this was one of the first courses I took that exposed me to Java, I chose 
          return isValid;
       }
 As I thought back on the process of improving and changing my artifact, I realized how important it is to fully concentrate on creating clear, effective code and how to apply the knowledge I gained from my Secure Coding course to safeguard my application.  I discovered how to create a sophisticated application that is portable and easy to understand.  How adding an admin text file, a credential text file, a veterinarian text file, a zookeeper text file, a role class, an MD5 digest class, an MD5 Hash class, a class that reads in my file, a main class, and a README file that details the program's precise purpose enhanced my artifact. In order to follow best practices and enable any user seeing my codes to fully comprehend my program, I had to include comments where needed in my codes.  Last but not least, I had to create algorithms that would validate user login attempts, validate hash passwords, and test and validate all inputs—whether they were taken from any of my previously mentioned text files—in order to construct my program with hackers in mind.  I would thus have a Zoo application that complies with all coding standards and best practices and demonstrates how, during my time as a Computer Science, Software Engineering student at Southern New Hampshire University, my programming abilities have developed via repetition.
+
+### *Algorithms and Data Structure: the Salvare Search for Rescue Web App *
+For the databases category, the Salvare Search for Rescue Web App was chosen as the artifact. In order to locate and classify suitable canines for training for various rescues, the web application seeks to create an online interface that integrates with an existing database from animal shelters. For the computer science course CS340 Client/Server Development, the web application was planned, created, and designed. The Dash framework and the non-relational database MongoDB are used in the Python development of the application. PyMongo is a Python driver that integrates Python with MongoDB. The program can be used as a test tool in a Jupyter Notebook and as a computer terminal that has an internet browser. A CSV file of all the dogs that are currently in shelters is imported into MongoDB as part of the application's functionality. Dependencies including the Python PyMongo driver, Python libraries, and Dash framework are also loaded, and a Python source code and CRUD module are used to work with the data that has been imported into MongoDB.
+This artifact was chosen because it had a multi-tier application that used an application programming interface (API) and a Model View Controller (MVC) in conjunction with a RESTful protocol design to extend the HTTP protocol. The MVC pattern's separation of concerns is its most alluring idea. The role of the model is to handle Python data structures, MongoDB, and data. The view is responsible for determining what the user sees and how on the Dash framework. The controller is in charge of pulling, modifying, and supplying the user with PyMongo driver data.
+Every record in the MongoDB database is a document that is described in BSON, which is a binary version of the JSON-formatted data that the web application retrieves. When the user launches the main application file in the computer terminal, a new tab in their browser opens that points to the app address (for example, http://127.0.0.1:8050/). When the browser loads, the client-facing web application dashboard appears, as shown in the screen below:
+
+<img width="975" height="381" alt="image" src="https://github.com/user-attachments/assets/f923f70d-03f3-4086-9b67-d79a2343553e" />
+
+<img width="913" height="700" alt="image" src="https://github.com/user-attachments/assets/ade8de23-8213-4450-ae8d-b6928cd6a569" />
+
+As demonstrated in the brief video, I successfully recreated the online application within a Windows environment. Beyond the initial Linux environment, I was able to create a functional application, which necessitated investigating my work in other languages in order to create an artifact that could run on several operating systems, such as Windows and macOS.
