@@ -123,3 +123,14 @@ Every record in the MongoDB database is a document that is described in BSON, wh
 <img width="913" height="700" alt="image" src="https://github.com/user-attachments/assets/ade8de23-8213-4450-ae8d-b6928cd6a569" />
 
 As demonstrated in the brief video, I successfully recreated the online application within a Windows environment. Beyond the initial Linux environment, I was able to create a functional application, which necessitated investigating my work in other languages in order to create an artifact that could run on several operating systems, such as Windows and macOS.
+
+### *Databases: CS-340 Client/Server Development*
+
+For the databases category, the artifact is a CS-340 project that was finished on June 6, 2024.  This Python file serves as the back end structure of an interactive database for animal rescue organizations and was created to work with PyMongo.  While the post-enhancement artifact has more sophisticated SQL capabilities, the pre-enhancement item has more fundamental CRUD functionality.
+
+This project was chosen as my third artifact because it provides a great illustration of the back-end database construction process.  Languages like Python are frequently used to search and alter the data found in large databases.  During the enhancement phase, I made considerable enhancements to my artifact, including adding SQL capabilities to create, read, update, and delete, as well as other improvements like count, insert multiple, update multiple, and delete multiple commands.  These improvements demonstrate how to update and extend SQL and Python data structure code.
+
+I believe I met all of the course requirements I needed to in order to reach this milestone.  My artifact's capability was upgraded to include count, delete multiple, insert multiple, and update multiple SQL commands, and its complexity was increased.  As of right now, my outcome coverage policies are not updated.
+
+While improving my project, I gained an appreciation for both simple and complex SQL statements, particularly those related to creation, read, update, and delete (CRUD).  I was able to establish a working database for animal rescues in my initial project by simply including those four SQL procedures into my Python code.  After I updated my code, I discovered how much a few tweaks may improve the project's final design.
+
