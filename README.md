@@ -82,15 +82,15 @@ Below is a link directly to my YouTube page where I uploaded my Code Review wher
 
 Software Design and Engineering: Zoo Authentication Enhancement.
 
-<img width="997" height="798" alt="Screenshot 2025-10-21 162923" src="https://github.com/user-attachments/assets/cd2deff7-6ed5-40dc-b58f-6c132745c0c7" />
-
-## *https://youtu.be/gElrdG477ts#
 
 ### *Software Design and Engineering:3D Modeling and Scene Design from CS 330*
 
 The current code is an OpenGL-developed 3D graphics application that incorporates a camera system to enable user navigation and interaction with a 3D scene.  The primary tasks include updating the camera's position and orientation, processing user input, and rendering geometric objects.  Users can use the keyboard keys W, A, S, and D to move the camera in a certain direction, move the mouse to rotate or orbit the view, and zoom in and out using the scroll wheel.  To create a realistic 3D depiction, the application handles lighting and material effects using vertex and fragment shaders. All the necessary files for my 3D Scene project, which I finished for my computational graphics and visualization course, are included in this repository.  This project highlights my grasp of the development process from inception to realization and demonstrates my ability to produce a completely realized 3D world.
 I approach software design by concentrating on functionality and user experience, making sure the design accomplishes its goal.  When creating programs, I begin with a thorough planning stage and proceed with iterative coding and testing.This project has sharpened my 3D modeling abilities and enhanced my comprehension of computational graphics.  Advanced texturing and lighting techniques are among my newfound design skills, and I've gotten better at using scripting in the rendering software to automate work. Future work in simulation applications, virtual reality settings, and game creation can directly benefit from the abilities and methods gained throughout this project.  The flexibility and resilience of my work are ensured by the adaptability of the iterative design and development process to a variety of other digital projects.
+<img width="997" height="798" alt="Screenshot 2025-10-21 162923" src="https://github.com/user-attachments/assets/95e4dbe2-b805-43ba-9f75-bf5a2e986fcd" />
 
+Please see the link below for the actual code review.
+## *https://youtu.be/gElrdG477ts#
 
 
 ### *Algorithms and Data Structures: Zoo Monitor System*
