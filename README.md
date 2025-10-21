@@ -82,9 +82,9 @@ Below is a link directly to my YouTube page where I uploaded my Code Review wher
 
 Software Design and Engineering: Zoo Authentication Enhancement.
 
-## *https://youtu.be/gElrdG477ts#
+<img width="997" height="798" alt="Screenshot 2025-10-21 162923" src="https://github.com/user-attachments/assets/cd2deff7-6ed5-40dc-b58f-6c132745c0c7" />
 
-![Java-1](https://github.com/user-attachments/assets/be8c2ba0-046a-4654-aacf-b4a70a09f956)
+## *https://youtu.be/gElrdG477ts#
 
 ### *Software Design and Engineering:3D Modeling and Scene Design from CS 330*
 
